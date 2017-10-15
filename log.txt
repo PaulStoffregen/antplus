@@ -1,0 +1,333 @@
+with HRM enabled only
+---------
+
+
+Ant+ USB
+ @ start up mesg reason: 0x0
+[0] * network key accepted
+[0]  * channel assign accepted
+[0]  * channel mesg period accepted
+[0]  * search timeout period accepted
+[0]  * radio freq accepted
+[0]  * search waveform accepted
+[0]  * set channel id accepted
+[0]  * open channel accepted
+Channel 0 status: STATUS SEARCHING CHANNEL
+ @ version: 'AJK1.04RAF'
+ @ capabilities:
+   Max ANT Channels: 8
+   Max ANT Networks: 3
+   Std. option: 0x0
+   Advanced: 0xBA
+   Advanced2: 0x36
+[1]  * channel assign accepted
+Channel 1 status: STATUS ASSIGNED CHANNEL
+[0] * network key accepted
+[1]  * channel mesg period accepted
+[0]  * channel assign accepted
+[1]  * search timeout period accepted
+[0]  * channel mesg period accepted
+[1]  * radio freq accepted
+[0]  * search timeout period accepted
+[1]  * search waveform accepted
+[0]  * radio freq accepted
+[1]  * set channel id accepted
+[0]  * search waveform accepted
+[1]  * open channel accepted
+[0]  * set channel id accepted
+Channel 1 status: STATUS SEARCHING CHANNEL
+ @ capabilities:
+   Max ANT Channels: 8
+   Max ANT Networks: 3
+   Std. option: 0x0
+   Advanced: 0xBA
+   Advanced2: 0x36
+ @ version: 'AJK1.04RAF'
+[0]  * open channel accepted
+ @ capabilities:
+   Max ANT Channels: 8
+   Max ANT Networks: 3
+   Std. option: 0x0
+   Advanced: 0xBA
+   Advanced2: 0x36
+ @ version: 'AJK1.04RAF'
+HRM: sequence:208, interval:6672ms, bpm:46
+Channel 0 status: STATUS TRACKING_CHANNEL
+Device found on channel 0: deviceId:26434, deviceType:120, transType:1
+HRM: sequence:209, interval:1318ms, bpm:47
+HRM: sequence:210, interval:1147ms, bpm:48
+HRM: sequence:211, interval:954ms, bpm:48
+HRM: sequence:212, interval:1004ms, bpm:49
+HRM: sequence:213, interval:1392ms, bpm:49
+HRM: sequence:214, interval:1378ms, bpm:48
+HRM: sequence:215, interval:1216ms, bpm:49
+HRM: sequence:216, interval:1194ms, bpm:49
+HRM: sequence:217, interval:1162ms, bpm:49
+HRM: sequence:218, interval:1183ms, bpm:49
+HRM: sequence:219, interval:1236ms, bpm:49
+HRM: sequence:220, interval:1251ms, bpm:49
+HRM: sequence:221, interval:1288ms, bpm:48
+HRM: sequence:222, interval:1208ms, bpm:48
+HRM: sequence:223, interval:1208ms, bpm:49
+HRM: sequence:224, interval:1190ms, bpm:49
+HRM: sequence:225, interval:1179ms, bpm:49
+HRM: sequence:226, interval:1178ms, bpm:49
+HRM: sequence:227, interval:1201ms, bpm:49
+HRM: sequence:228, interval:1135ms, bpm:49
+HRM: sequence:229, interval:1134ms, bpm:50
+HRM: sequence:230, interval:1126ms, bpm:50
+HRM: sequence:231, interval:1147ms, bpm:50
+HRM: sequence:232, interval:1140ms, bpm:51
+HRM: sequence:233, interval:1074ms, bpm:51
+HRM: sequence:234, interval:1098ms, bpm:51
+HRM: sequence:235, interval:1092ms, bpm:52
+HRM: sequence:236, interval:1047ms, bpm:52
+HRM: sequence:237, interval:1058ms, bpm:53
+HRM: sequence:238, interval:1055ms, bpm:53
+HRM: sequence:239, interval:1032ms, bpm:54
+HRM: sequence:240, interval:1048ms, bpm:54
+HRM: sequence:241, interval:1057ms, bpm:55
+HRM: sequence:242, interval:1051ms, bpm:55
+HRM: sequence:243, interval:1044ms, bpm:55
+HRM: sequence:244, interval:1059ms, bpm:55
+HRM: sequence:245, interval:1066ms, bpm:55
+HRM: sequence:246, interval:1052ms, bpm:55
+HRM: sequence:247, interval:1090ms, bpm:55
+HRM: sequence:248, interval:1113ms, bpm:55
+HRM: sequence:249, interval:1111ms, bpm:55
+HRM: sequence:250, interval:1089ms, bpm:55
+HRM: sequence:251, interval:1099ms, bpm:55
+HRM: sequence:252, interval:1087ms, bpm:55
+HRM: sequence:253, interval:1053ms, bpm:55
+HRM: sequence:254, interval:1083ms, bpm:55
+HRM: sequence:255, interval:1127ms, bpm:55
+HRM: sequence:0, interval:1093ms, bpm:55
+HRM: sequence:1, interval:1109ms, bpm:54
+HRM: sequence:2, interval:1096ms, bpm:54
+HRM: sequence:3, interval:1070ms, bpm:55
+HRM: sequence:4, interval:1074ms, bpm:55
+HRM: sequence:5, interval:1088ms, bpm:55
+HRM: sequence:6, interval:1114ms, bpm:54
+HRM: sequence:7, interval:1079ms, bpm:55
+HRM: sequence:8, interval:1104ms, bpm:54
+HRM: sequence:9, interval:1098ms, bpm:54
+HRM: sequence:10, interval:1063ms, bpm:55
+HRM: sequence:11, interval:1062ms, bpm:55
+HRM: sequence:12, interval:1074ms, bpm:55
+HRM: sequence:13, interval:1084ms, bpm:55
+HRM: sequence:14, interval:1070ms, bpm:55
+HRM: sequence:15, interval:1108ms, bpm:55
+HRM: sequence:16, interval:1107ms, bpm:55
+HRM: sequence:17, interval:1067ms, bpm:55
+HRM: sequence:18, interval:1071ms, bpm:55
+HRM: sequence:19, interval:1042ms, bpm:55
+HRM: sequence:20, interval:1037ms, bpm:55
+HRM: sequence:21, interval:1034ms, bpm:56
+HRM: sequence:22, interval:1079ms, bpm:56
+HRM: sequence:23, interval:1085ms, bpm:56
+HRM: sequence:24, interval:1107ms, bpm:55
+etc..
+
+---
+
+with HRM and a combined speed and cadence sensor enabled
+(i'm manually spinning the cranks to generate sensor pickup)
+
+
+---------
+Ant+ USB
+ @ start up mesg reason: 0x0
+[0] * network key accepted
+[0]  * channel assign accepted
+[0]  * channel mesg period accepted
+[0]  * search timeout period accepted
+[0]  * radio freq accepted
+[0]  * search waveform accepted
+[0]  * set channel id accepted
+[0]  * open channel accepted
+Channel 0 status: STATUS SEARCHING CHANNEL
+ @ capabilities:
+   Max ANT Channels: 8
+   Max ANT Networks: 3
+   Std. option: 0x0
+   Advanced: 0xBA
+   Advanced2: 0x36
+ @ version: 'AJK1.04RAF'
+HRM: sequence:166, interval:37073ms, bpm:64
+Channel 0 status: STATUS TRACKING_CHANNEL
+[1]  * channel assign accepted
+Channel 1 status: STATUS ASSIGNED CHANNEL
+[0] * network key accepted
+[1]  * channel mesg period accepted
+[0]  * channel assign accepted
+[1]  * search timeout period accepted
+[0]  * channel mesg period accepted
+[1]  * radio freq accepted
+[0]  * search timeout period accepted
+[1]  * search waveform accepted
+[0]  * radio freq accepted
+[1]  * set channel id accepted
+[0]  * search waveform accepted
+[1]  * open channel accepted
+[0]  * set channel id accepted
+Channel 1 status: STATUS SEARCHING CHANNEL
+ @ capabilities:
+   Max ANT Channels: 8
+   Max ANT Networks: 3
+   Std. option: 0x0
+   Advanced: 0xBA
+   Advanced2: 0x36
+ @ version: 'AJK1.04RAF'
+[0]  * open channel accepted
+HRM: sequence:167, interval:1105ms, bpm:63
+ @ capabilities:
+   Max ANT Channels: 8
+   Max ANT Networks: 3
+   Std. option: 0x0
+   Advanced: 0xBA
+   Advanced2: 0x36
+ @ capabilities:
+   Max ANT Channels: 8
+   Max ANT Networks: 3
+   Std. option: 0x0
+   Advanced: 0xBA
+   Advanced2: 0x36
+ @ version: 'AJK1.04RAF'
+SPDCAD: speed: 614.52km/h, cadence: 27676rpm, total distance: 114.55km
+Channel 1 status: STATUS TRACKING_CHANNEL
+Device found on channel 1: deviceId:23513, deviceType:121, transType:1
+HRM: sequence:168, interval:1080ms, bpm:62
+HRM: sequence:169, interval:1123ms, bpm:61
+HRM: sequence:170, interval:1074ms, bpm:60
+HRM: sequence:171, interval:1037ms, bpm:60
+HRM: sequence:172, interval:875ms, bpm:60
+HRM: sequence:173, interval:842ms, bpm:60
+HRM: sequence:174, interval:808ms, bpm:61
+SPDCAD: speed: 0.00km/h, cadence: 1rpm, total distance: 114.55km
+HRM: sequence:175, interval:759ms, bpm:63
+SPDCAD: speed: 0.00km/h, cadence: 349rpm, total distance: 114.55km
+HRM: sequence:176, interval:738ms, bpm:66
+HRM: sequence:177, interval:718ms, bpm:68
+HRM: sequence:178, interval:715ms, bpm:70
+SPDCAD: speed: 0.23km/h, cadence: 27rpm, total distance: 114.55km
+SPDCAD: speed: 22.28km/h, cadence: 0rpm, total distance: 114.56km
+HRM: sequence:179, interval:696ms, bpm:72
+SPDCAD: speed: 24.83km/h, cadence: 86rpm, total distance: 114.56km
+SPDCAD: speed: 24.36km/h, cadence: 0rpm, total distance: 114.56km
+HRM: sequence:180, interval:673ms, bpm:74
+SPDCAD: speed: 24.21km/h, cadence: 0rpm, total distance: 114.56km
+SPDCAD: speed: 23.92km/h, cadence: 0rpm, total distance: 114.56km
+HRM: sequence:181, interval:682ms, bpm:75
+SPDCAD: speed: 23.77km/h, cadence: 0rpm, total distance: 114.57km
+SPDCAD: speed: 23.56km/h, cadence: 0rpm, total distance: 114.57km
+SPDCAD: speed: 23.35km/h, cadence: 0rpm, total distance: 114.57km
+HRM: sequence:182, interval:668ms, bpm:77
+SPDCAD: speed: 23.14km/h, cadence: 0rpm, total distance: 114.57km
+HRM: sequence:183, interval:653ms, bpm:79
+SPDCAD: speed: 22.94km/h, cadence: 0rpm, total distance: 114.57km
+SPDCAD: speed: 22.80km/h, cadence: 21rpm, total distance: 114.57km
+HRM: sequence:184, interval:663ms, bpm:80
+SPDCAD: speed: 22.54km/h, cadence: 0rpm, total distance: 114.58km
+SPDCAD: speed: 22.28km/h, cadence: 0rpm, total distance: 114.58km
+HRM: sequence:185, interval:672ms, bpm:81
+SPDCAD: speed: 22.16km/h, cadence: 0rpm, total distance: 114.58km
+SPDCAD: speed: 21.97km/h, cadence: 0rpm, total distance: 114.58km
+HRM: sequence:186, interval:679ms, bpm:82
+SPDCAD: speed: 21.72km/h, cadence: 0rpm, total distance: 114.58km
+SPDCAD: speed: 21.49km/h, cadence: 0rpm, total distance: 114.59km
+HRM: sequence:187, interval:683ms, bpm:83
+SPDCAD: speed: 21.31km/h, cadence: 0rpm, total distance: 114.59km
+SPDCAD: speed: 21.08km/h, cadence: 0rpm, total distance: 114.59km
+HRM: sequence:188, interval:689ms, bpm:83
+SPDCAD: speed: 20.91km/h, cadence: 0rpm, total distance: 114.59km
+SPDCAD: speed: 20.74km/h, cadence: 0rpm, total distance: 114.60km
+HRM: sequence:189, interval:692ms, bpm:84
+SPDCAD: speed: 20.47km/h, cadence: 0rpm, total distance: 114.60km
+SPDCAD: speed: 0.00km/h, cadence: 14rpm, total distance: 114.60km
+SPDCAD: speed: 20.53km/h, cadence: 0rpm, total distance: 114.60km
+HRM: sequence:190, interval:683ms, bpm:84
+SPDCAD: speed: 21.60km/h, cadence: 0rpm, total distance: 114.60km
+HRM: sequence:191, interval:709ms, bpm:84
+SPDCAD: speed: 21.49km/h, cadence: 62rpm, total distance: 114.60km
+SPDCAD: speed: 22.94km/h, cadence: 0rpm, total distance: 114.61km
+SPDCAD: speed: 23.92km/h, cadence: 0rpm, total distance: 114.61km
+HRM: sequence:192, interval:705ms, bpm:84
+SPDCAD: speed: 23.70km/h, cadence: 66rpm, total distance: 114.61km
+SPDCAD: speed: 24.52km/h, cadence: 0rpm, total distance: 114.61km
+HRM: sequence:193, interval:750ms, bpm:84
+SPDCAD: speed: 24.67km/h, cadence: 0rpm, total distance: 114.61km
+SPDCAD: speed: 24.44km/h, cadence: 69rpm, total distance: 114.61km
+HRM: sequence:194, interval:756ms, bpm:83
+SPDCAD: speed: 24.83km/h, cadence: 0rpm, total distance: 114.62km
+SPDCAD: speed: 24.83km/h, cadence: 0rpm, total distance: 114.62km
+SPDCAD: speed: 24.75km/h, cadence: 69rpm, total distance: 114.62km
+HRM: sequence:195, interval:756ms, bpm:83
+SPDCAD: speed: 25.23km/h, cadence: 0rpm, total distance: 114.62km
+SPDCAD: speed: 25.15km/h, cadence: 0rpm, total distance: 114.62km
+SPDCAD: speed: 24.99km/h, cadence: 55rpm, total distance: 114.63km
+HRM: sequence:196, interval:768ms, bpm:82
+SPDCAD: speed: 25.15km/h, cadence: 0rpm, total distance: 114.63km
+SPDCAD: speed: 25.23km/h, cadence: 0rpm, total distance: 114.63km
+SPDCAD: speed: 0.00km/h, cadence: 69rpm, total distance: 114.63km
+HRM: sequence:197, interval:724ms, bpm:82
+SPDCAD: speed: 24.99km/h, cadence: 0rpm, total distance: 114.63km
+SPDCAD: speed: 24.75km/h, cadence: 0rpm, total distance: 114.64km
+HRM: sequence:198, interval:732ms, bpm:82
+SPDCAD: speed: 24.67km/h, cadence: 0rpm, total distance: 114.64km
+SPDCAD: speed: 24.44km/h, cadence: 63rpm, total distance: 114.64km
+HRM: sequence:199, interval:705ms, bpm:82
+SPDCAD: speed: 24.21km/h, cadence: 0rpm, total distance: 114.64km
+SPDCAD: speed: 24.06km/h, cadence: 0rpm, total distance: 114.64km
+SPDCAD: speed: 23.92km/h, cadence: 68rpm, total distance: 114.64km
+HRM: sequence:200, interval:706ms, bpm:82
+SPDCAD: speed: 24.36km/h, cadence: 0rpm, total distance: 114.65km
+SPDCAD: speed: 24.14km/h, cadence: 0rpm, total distance: 114.65km
+HRM: sequence:201, interval:708ms, bpm:83
+SPDCAD: speed: 23.92km/h, cadence: 0rpm, total distance: 114.65km
+SPDCAD: speed: 23.77km/h, cadence: 0rpm, total distance: 114.65km
+HRM: sequence:202, interval:690ms, bpm:83
+SPDCAD: speed: 23.56km/h, cadence: 0rpm, total distance: 114.65km
+SPDCAD: speed: 23.42km/h, cadence: 29rpm, total distance: 114.66km
+SPDCAD: speed: 23.70km/h, cadence: 0rpm, total distance: 114.66km
+HRM: sequence:203, interval:673ms, bpm:84
+SPDCAD: speed: 23.63km/h, cadence: 0rpm, total distance: 114.66km
+HRM: sequence:204, interval:677ms, bpm:84
+SPDCAD: speed: 23.56km/h, cadence: 62rpm, total distance: 114.66km
+SPDCAD: speed: 23.14km/h, cadence: 0rpm, total distance: 114.67km
+HRM: sequence:205, interval:671ms, bpm:85
+SPDCAD: speed: 22.94km/h, cadence: 0rpm, total distance: 114.67km
+SPDCAD: speed: 21.25km/h, cadence: 0rpm, total distance: 114.67km
+HRM: sequence:206, interval:667ms, bpm:85
+HRM: sequence:207, interval:678ms, bpm:86
+HRM: sequence:208, interval:674ms, bpm:86
+SPDCAD: speed: 0.00km/h, cadence: 20rpm, total distance: 114.67km
+HRM: sequence:209, interval:647ms, bpm:87
+HRM: sequence:210, interval:657ms, bpm:87
+HRM: sequence:211, interval:668ms, bpm:88
+SPDCAD: speed: 1.98km/h, cadence: 0rpm, total distance: 114.67km
+HRM: sequence:212, interval:645ms, bpm:88
+HRM: sequence:213, interval:640ms, bpm:89
+HRM: sequence:214, interval:643ms, bpm:89
+HRM: sequence:215, interval:656ms, bpm:89
+HRM: sequence:216, interval:644ms, bpm:90
+HRM: sequence:217, interval:474ms, bpm:90
+HRM: sequence:218, interval:833ms, bpm:90
+HRM: sequence:219, interval:634ms, bpm:90
+HRM: sequence:220, interval:613ms, bpm:91
+HRM: sequence:221, interval:617ms, bpm:92
+HRM: sequence:222, interval:603ms, bpm:93
+HRM: sequence:223, interval:632ms, bpm:93
+HRM: sequence:224, interval:853ms, bpm:93
+HRM: sequence:225, interval:907ms, bpm:93
+HRM: sequence:226, interval:894ms, bpm:90
+HRM: sequence:227, interval:816ms, bpm:88
+HRM: sequence:228, interval:897ms, bpm:85
+HRM: sequence:229, interval:899ms, bpm:83
+HRM: sequence:230, interval:837ms, bpm:81
+HRM: sequence:231, interval:895ms, bpm:79
+HRM: sequence:232, interval:908ms, bpm:78
+HRM: sequence:233, interval:901ms, bpm:76
+HRM: sequence:234, interval:911ms, bpm:75
+HRM: sequence:235, interval:950ms, bpm:73
+HRM: sequence:236, interval:943ms, bpm:72
+HRM: sequence:237, interval:928ms, bpm:71
